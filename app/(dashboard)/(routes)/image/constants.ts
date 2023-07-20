@@ -15,19 +15,19 @@ export const amountOptions = [
   },
   {
     value: "2",
-    label: "2 Image",
+    label: "2 Images",
   },
   {
     value: "3",
-    label: "3 Image",
+    label: "3 Images",
   },
   {
     value: "4",
-    label: "4 Image",
+    label: "4 Images",
   },
   {
     value: "5",
-    label: "5 Image",
+    label: "5 Images",
   },
 ];
 
