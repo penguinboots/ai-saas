@@ -48,7 +48,7 @@ const MusicPage = () => {
     <div>
       <Heading
         title="Music Generation"
-        description="The newest musician on the block."
+        description="A wedding DJ that actually takes requests."
         icon={MusicIcon}
         iconColor="text-emerald-500"
         bgColor="bg-emerald-500/10"
@@ -89,14 +89,19 @@ const MusicPage = () => {
         </div>
         <div className="space-y-4 mt-4">
           {isLoading && (
-            <div className="p-8 rounded-lg w-full flex items-center justify-center bg-muted">
+            <div className="p-8 rounded-lg w-full flex flex-col items-center justify-center bg-muted">
               <Loader />
+              <p className="text-sm text-muted-foreground">This may take several minutes if Genius needs to warm up!</p>
             </div>
           )}
           {!music && !isLoading && (
             <Empty label="No tunes generated." />
           )}
-          <div>Music here.</div>
+          {music && (
+            <audio controls className="w-full mt-8">
+              <source src={music}/>
+            </audio>
+          )}
         </div>
       </div>
     </div>
