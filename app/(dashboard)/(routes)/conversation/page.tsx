@@ -16,6 +16,8 @@ import { ChatCompletionRequestMessage } from "openai";
 import Empty from "@/components/Empty";
 import Loader from "@/components/Loader";
 import { cn } from "@/lib/utils";
+import BotAvatar from "@/components/BotAvatar";
+import UserAvatar from "@/components/UserAvatar";
 
 const ConversationPage = () => {
   const router = useRouter();
@@ -109,11 +111,15 @@ const ConversationPage = () => {
             {messages.map((message) => (
               <div
                 key={message.content}
-                className={cn("p-8 w-full flex items-start gap-x-8 rounded-lg",
-                  message.role === "user" ? "bg-white border border-black/10" : "bg.muted"
+                className={cn(
+                  "p-8 w-full flex items-start gap-x-8 rounded-lg",
+                  message.role === "user"
+                    ? "bg-white border border-black/10"
+                    : "bg.muted"
                 )}
               >
-                {message.content}
+                {message.role === "user" ? <UserAvatar /> : <BotAvatar />}
+                <p className="text-sm">{message.content}</p>
               </div>
             ))}
           </div>
