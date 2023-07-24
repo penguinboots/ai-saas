@@ -5,6 +5,7 @@
   - App Router
 - React
 - Tailwind
+- shadcn/ui
 - Prisma
 
 ## Services
