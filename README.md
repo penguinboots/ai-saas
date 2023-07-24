@@ -5,12 +5,14 @@
   - App Router
 - React
 - Tailwind
-- shadcn/ui
 - Prisma
-
-## Services
-- OpenAI API
-- Replicate API
+- shadcn/ui
 - Clerk (authentication)
-- Planetscale (DB hosting)
 - Stripe (payment processing)
+
+## APIs
+- OpenAI
+- Replicate
+
+## Hosting
+- Planetscale (database)
