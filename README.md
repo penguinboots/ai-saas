@@ -5,10 +5,13 @@
   - App Router
 - React
 - Tailwind
-- Prisma
 - shadcn/ui
+- Prisma
+
+## Services
 - Clerk (authentication)
 - Stripe (payment processing)
+- Crisp (customer support)
 
 ## APIs
 - OpenAI
