@@ -10,22 +10,22 @@ const testimonials = [
     description: "This is really cool!"
   },
   {
-    name: "Melvin",
-    avatar: "M",
-    title: "Content Producer",
-    description: "This is really cool!"
+    name: "Gummy",
+    avatar: "G",
+    title: "Event Planner",
+    description: "It's great for sharing with friends!"
   },
   {
-    name: "Melvin",
-    avatar: "M",
-    title: "Content Producer",
-    description: "This is really cool!"
+    name: "Wryly",
+    avatar: "W",
+    title: "Cake Aficionado",
+    description: "I like the pictures!"
   },
   {
-    name: "Melvin",
+    name: "Weeble",
     avatar: "M",
     title: "Content Producer",
-    description: "This is really cool!"
+    description: "I made the chatbot talk like an anime character!"
   },
 ]
 
