@@ -1,4 +1,4 @@
-# Lil Genius (AI Saas)
+# Lil Genius (AI SaaS)
 
 A full-stack, SaaS AI platform with a free and paid tier. Uses Next, React, Tailwind, Prisma, and more. AI tools include chat, image, video, music, and code generation leveraging APIs from OpenAI and Replicate. Hosted [here](https://lil-genius.vercel.app/) on Vercel.
 
